@@ -8,7 +8,7 @@ A Fun Music Bot Made In discord.js
 # Bot Information
 Discord Framework : discord.js<br>
 Hosted On : [Glitch](https://glitch.com)<br>
-Invite link : [Here](https://discordapp.com/oauth2/authorize?client_id=667632306457935873&scope=bot&permissions=45473089)<br>
+Invite link : [Here](https://discordapp.com/oauth2/authorize?client_id=667632306457935873&scope=bot&permissions=11889985)<br>
 Support Server Link : [Here](https://discord.gg/KM9X35B)
 
 # Power Levels
@@ -38,6 +38,7 @@ Support Server Link : [Here](https://discord.gg/KM9X35B)
 |rin$play     |0          |[Youtube Video URL/Youtube Video ID/ Search String] |Play/Add a video to the queue.  |rin$play https://www.youtube.com/watch?v=dQw4w9WgXcQ<br>rin$play dQw4w9WgXcQ<br>rin$play Rick Astley - Never Gonna Give You Up |
 |rin$skip     |0          |None                                                |Skip a song                     |rin$skip                                                                                                                       |
 |rin$stop     |0          |None                                                |Stop the song. (Clear the queue)|rin$stop                                                                                                                       |
+|rin$queue    |0          |None                                                |See the current queue           |rin$queue                                                                                                                      |
 
 # Packages
 [bufferutil](https://www.npmjs.com/package/bufferutil)<br>

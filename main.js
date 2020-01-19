@@ -59,7 +59,7 @@ class Function {
         dispatcher.setVolume(0.3);
 
         let playEmbed = new Discord.RichEmbed()
-            .setColor(16711681)
+            .setColor(9472474)
             .setTimestamp(Date.now())
             .setAuthor(`Now playing`, data[0].message.author.avatarURL)
             .setThumbnail(data[0].videoData.image)
@@ -99,13 +99,18 @@ End Of Registering Function
 */
 
 /*
-Register Options
+Register Options And Makers
 */
+
+let makers = {
+    embedMaker: require("./Maker/pageEmbed.js")
+};
 
 let options = {
     commandList: commandList,
     queue: queue,
     config: config,
+    maker: makers,
     functions: new Function
 };
 
