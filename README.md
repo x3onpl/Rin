@@ -42,7 +42,7 @@ Invite link : [Here](https://discordapp.com/oauth2/authorize?client_id=667632306
 [libsodium-wrappers](https://www.npmjs.com/package/libsodium-wrappers)<br>
 [node-opus](https://www.npmjs.com/package/node-opus)<br>
 [ytdl-core](https://www.npmjs.com/package/ytdl-core)<br>
-[yt-search](https://www.npmjs.com/package/yt-search)
+[yt-search](https://www.npmjs.com/package/yt-search)<br>
 hammerandchisel/erlpack<br>
 
 #How to host?
@@ -51,7 +51,7 @@ hammerandchisel/erlpack<br>
 * Then rename config.json.example to config.json and edit the file data
 * Do the same with .env.example
 * Open Command Prompt, Then type ```cd "C:\Users\%username%\Desktop\Rin-rin-master"``` or change directory to the bot folder.
-* Then type ```npm install``` (Only do it once)`
+* Then type ```npm install``` (Only do it once)
 * Then type ```node main.js```
 
 #FAQ
