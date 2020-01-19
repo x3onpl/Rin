@@ -45,7 +45,7 @@ Invite link : [Here](https://discordapp.com/oauth2/authorize?client_id=667632306
 [yt-search](https://www.npmjs.com/package/yt-search)<br>
 hammerandchisel/erlpack<br>
 
-#How to host?
+# How to host?
 
 * Download the source, Unzip it in your desktop
 * Then rename config.json.example to config.json and edit the file data
@@ -54,7 +54,7 @@ hammerandchisel/erlpack<br>
 * Then type ```npm install``` (Only do it once)`
 * Then type ```node main.js```
 
-#FAQ
+# FAQ
 * Help! It said `'npm' is not recognized as an internal or external command.` or `'node' is not recognized as an internal or external command.`<br>
 A : Install [Node.JS](https://nodejs.org/en/).
 
