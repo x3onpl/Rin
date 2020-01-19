@@ -50,6 +50,7 @@ Support Server Link : [Here](https://discord.gg/KM9X35B)
 [ytdl-core](https://www.npmjs.com/package/ytdl-core)<br>
 [yt-search](https://www.npmjs.com/package/yt-search)<br>
 [@isolution/youtube-audio-stream](https://www.npmjs.com/package/@isolution/youtube-audio-stream)<br>
+[moment](https://momentjs.com/)<br>
 hammerandchisel/erlpack<br>
 
 # How to host?
