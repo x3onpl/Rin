@@ -1,5 +1,4 @@
 let Discord = require('discord.js'),
-    moment = require("moment"),
     os = require("os");
 
 exports.run = async (client, msg, args, options) => {

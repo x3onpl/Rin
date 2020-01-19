@@ -27,9 +27,10 @@ Support Server Link : [Here](https://discord.gg/KM9X35B)
 
 ##### Information
 
-|Command Name |Power Level|Argument |Description                 |Example  |
-|:-----------:|:---------:|:-------:|:---------------------------|:--------|
-|rin$help     |0          |None     |Show you all of the commands|rin$help |                
+|Command Name |Power Level|Argument |Description                        |Example |
+|:-----------:|:---------:|:-------:|:----------------------------------|:-------|
+|rin$help     |0          |None     |Show you all of the commands       |rin$help|                
+|rin$info     |0          |None     |Show you the information of the bot|rin$info|
 
 ###### Music
 
