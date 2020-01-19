@@ -1,6 +1,10 @@
 # Rin
 A Fun Music Bot Made In discord.js
 
+# Feature
+* Play Music
+* Play Live Music
+
 # Bot Information
 Discord Framework : discord.js<br>
 Hosted On : [Glitch](https://glitch.com)<br>
@@ -44,6 +48,7 @@ Support Server Link : [Here](https://discord.gg/KM9X35B)
 [node-opus](https://www.npmjs.com/package/node-opus)<br>
 [ytdl-core](https://www.npmjs.com/package/ytdl-core)<br>
 [yt-search](https://www.npmjs.com/package/yt-search)<br>
+[@isolution/youtube-audio-stream](https://www.npmjs.com/package/@isolution/youtube-audio-stream)<br>
 hammerandchisel/erlpack<br>
 
 # How to host?
