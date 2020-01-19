@@ -72,3 +72,6 @@ A : Install [node-gyp](https://github.com/nodejs/node-gyp) and [windows-build-to
 
 * Help! It said `Error : Invalid converter command`<br>
 A : Install [FFMPEG](https://www.ffmpeg.org/download.html), Then put the file path in PATH in System Enviroment Variablem, Then restart.
+
+# Known Major Bug
+* [Some song can't be played](https://github.com/xhayper/Rin/issues/1)
