@@ -4,7 +4,8 @@ A Fun Music Bot Made In discord.js
 # Bot Information
 Discord Framework : discord.js<br>
 Hosted On : [Glitch](https://glitch.com)<br>
-Invite link : [Here](https://discordapp.com/oauth2/authorize?client_id=667632306457935873&scope=bot&permissions=45473089)
+Invite link : [Here](https://discordapp.com/oauth2/authorize?client_id=667632306457935873&scope=bot&permissions=45473089)<br>
+Support Server Link : [Here](https://discord.gg/KM9X35B)
 
 # Power Levels
 
