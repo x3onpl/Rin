@@ -1,6 +1,11 @@
 # Rin
 A Fun Music Bot Made In discord.js
 
+# Bot Information
+Discord Framework : discord.js<br>
+Hosted On : [Glitch](https://glitch.com)<br>
+Invite link : [Here](https://discordapp.com/oauth2/authorize?client_id=667632306457935873&scope=bot&permissions=45473089)
+
 # Power Levels
 
 |Name     | Power Level | Permissions | Default? |
@@ -29,11 +34,6 @@ A Fun Music Bot Made In discord.js
 |rin$skip     |0          |None                                                |Skip a song                     |rin$skip                                                                                                                       |
 |rin$stop     |0          |None                                                |Stop the song. (Clear the queue)|rin$stop                                                                                                                       |
 
-# Bot Information
-Discord Framework : discord.js<br>
-Hosted On : [Glitch](https://glitch.com)<br>
-Invite link : [Here](https://discordapp.com/oauth2/authorize?client_id=667632306457935873&scope=bot&permissions=45473089)
-
 # Packages
 [bufferutil](https://www.npmjs.com/package/bufferutil)<br>
 [discord.js](https://www.npmjs.com/package/discord.js)<br>
@@ -42,7 +42,7 @@ Invite link : [Here](https://discordapp.com/oauth2/authorize?client_id=667632306
 [libsodium-wrappers](https://www.npmjs.com/package/libsodium-wrappers)<br>
 [node-opus](https://www.npmjs.com/package/node-opus)<br>
 [ytdl-core](https://www.npmjs.com/package/ytdl-core)<br>
-[yt-search](https://www.npmjs.com/package/yt-search)
+[yt-search](https://www.npmjs.com/package/yt-search)<br>
 hammerandchisel/erlpack<br>
 
 #How to host?
@@ -63,6 +63,3 @@ A : Install [node-gyp](https://github.com/nodejs/node-gyp) and [windows-build-to
 
 * Help! It said `Error : Invalid converter command`<br>
 A : Install [FFMPEG](https://www.ffmpeg.org/download.html), Then put the file path in PATH in System Enviroment Variablem, Then restart.
-
-# Invite
-[Invite the bot here](https://discordapp.com/oauth2/authorize?client_id=667632306457935873&scope=bot&permissions=45473089)
