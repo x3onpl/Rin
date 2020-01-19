@@ -15,15 +15,21 @@ A Fun Music Bot Made In discord.js
 
 #### Category
 
+##### Information
+
+|Command Name |Power Level|Argument |Description                 |Example  |
+|:-----------:|:---------:|:-------:|:---------------------------|:--------|
+|rin$help     |0          |None     |Show you all of the commands|rin$help |                
+
 ###### Music
 
-|Command Name   |Power Level|Argument                                            |Description                     |Example                                                                                                                        |
-|:-------------:|:---------:|:--------------------------------------------------:|:-------------------------------|:------------------------------------------------------------------------------------------------------------------------------|
-|rin$play       |0          |[Youtube Video URL/Youtube Video ID/ Search String] |Play/Add a video to the queue.  |rin$play https://www.youtube.com/watch?v=dQw4w9WgXcQ<br>rin$play dQw4w9WgXcQ<br>rin$play Rick Astley - Never Gonna Give You Up |
-|rin$skip       |0          |None                                                |Skip a song                     |rin$skip                                                                                                                       |
-|rin$stop       |0          |None                                                |Stop the song. (Clear the queue)|rin$stop                                                                                                                       |
+|Command Name |Power Level|Argument                                            |Description                     |Example                                                                                                                        |
+|:-----------:|:---------:|:--------------------------------------------------:|:-------------------------------|:------------------------------------------------------------------------------------------------------------------------------|
+|rin$play     |0          |[Youtube Video URL/Youtube Video ID/ Search String] |Play/Add a video to the queue.  |rin$play https://www.youtube.com/watch?v=dQw4w9WgXcQ<br>rin$play dQw4w9WgXcQ<br>rin$play Rick Astley - Never Gonna Give You Up |
+|rin$skip     |0          |None                                                |Skip a song                     |rin$skip                                                                                                                       |
+|rin$stop     |0          |None                                                |Stop the song. (Clear the queue)|rin$stop                                                                                                                       |
 
-# Information
+# Bot Information
 Discord Framework : discord.js<br>
 Hosted On : [Glitch](https://glitch.com)<br>
 Invite link : [Here](https://discordapp.com/oauth2/authorize?client_id=667632306457935873&scope=bot&permissions=45473089)
@@ -57,3 +63,6 @@ A : Install [node-gyp](https://github.com/nodejs/node-gyp) and [windows-build-to
 
 * Help! It said `Error : Invalid converter command`<br>
 A : Install [FFMPEG](https://www.ffmpeg.org/download.html), Then put the file path in PATH in System Enviroment Variablem, Then restart.
+
+# Invite
+[Invite the bot here](https://discordapp.com/oauth2/authorize?client_id=667632306457935873&scope=bot&permissions=45473089)
