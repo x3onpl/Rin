@@ -2,7 +2,7 @@
 A Fun Music Bot Made In discord.js
 
 # TODO
-* Add Manager File
+* ~~Add Manager File~~ Impossible.
 * Clean up the code
 * Fix Major Issue.
 
