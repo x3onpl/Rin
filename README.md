@@ -6,7 +6,7 @@ A Fun Music Bot Made In discord.js
 * Play Live Music
 
 # Bot Information
-Discord Framework : [discord.js](https://discord.js.org/)(<br>
+Discord Framework : [discord.js](https://discord.js.org/)<br>
 Hosted On : [Glitch](https://glitch.com)<br>
 Invite link : [Here](https://discordapp.com/oauth2/authorize?client_id=667632306457935873&scope=bot&permissions=11889985)<br>
 Support Server Link : [Here](https://discord.gg/KM9X35B)
