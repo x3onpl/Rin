@@ -6,7 +6,7 @@ A Fun Music Bot Made In discord.js
 * Play Live Music
 
 # Bot Information
-Discord Framework : discord.js<br>
+Discord Framework : [discord.js](https://discord.js.org/)(<br>
 Hosted On : [Glitch](https://glitch.com)<br>
 Invite link : [Here](https://discordapp.com/oauth2/authorize?client_id=667632306457935873&scope=bot&permissions=11889985)<br>
 Support Server Link : [Here](https://discord.gg/KM9X35B)
@@ -19,8 +19,8 @@ Support Server Link : [Here](https://discord.gg/KM9X35B)
 |Admin    |2            |Administrator|No        |
 |Bot Owner|4            |Bot Owner    |No        |
 
-# Command List
-
+# Command-List
+ 
 * [] = Required, () = Optinal, / = or, & = and.
 
 #### Category
@@ -70,8 +70,8 @@ A : Install [Node.JS](https://nodejs.org/en/).
 * Help! It said `Error : Cannot find module 'node-gyp'`<br>
 A : Install [node-gyp](https://github.com/nodejs/node-gyp) and [windows-build-tools](https://www.npmjs.com/package/windows-build-tools).
 
-* Help! It said `Error : Invalid converter command`<br>
-A : Install [FFMPEG](https://www.ffmpeg.org/download.html), Then put the file path in PATH in System Enviroment Variablem, Then restart.
+* Help! It said `Error: Invalid converter command`<br>
+A: Install [FFMPEG](https://www.ffmpeg.org/download.html), Then put the file path in PATH's System Environment Variable, Then restart.
 
 # Support me!
 [Patreon](https://www.patreon.com/xhayper)
