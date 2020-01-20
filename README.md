@@ -52,7 +52,7 @@ Support Server Link : [Here](https://discord.gg/KM9X35B)
 [dotenv](https://www.npmjs.com/package/dotenv)<br>
 [glob](https://www.npmjs.com/package/glob)<br>
 [libsodium-wrappers](https://www.npmjs.com/package/libsodium-wrappers)<br>
-[node-opus](https://www.npmjs.com/package/node-opus)<br>
+[opusscript](https://www.npmjs.com/package/opusscript)<br>
 [ytdl-core](https://www.npmjs.com/package/ytdl-core)<br>
 [yt-search](https://www.npmjs.com/package/yt-search)<br>
 [@isolution/youtube-audio-stream](https://www.npmjs.com/package/@isolution/youtube-audio-stream)<br>
