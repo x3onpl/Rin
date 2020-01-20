@@ -5,6 +5,7 @@ let Discord = require("discord.js"),
     permissionConfig = require("./permissionConfig"),
     config = require("./config.json"),
     youtubeAudioStream = require("@isolution/youtube-audio-stream"),
+    ytdl = require("ytdl-core"),
     fs = require("fs"),
     glob = require("glob"),
 
@@ -50,11 +51,21 @@ class Function {
     async playMusic(guild) {
         if (!queue.get(guild.id) || queue.get(guild.id).size === 0) return;
         let data = queue.get(guild.id);
+        //let dispatcher;
+        /*if (data[0].videoData.duration.seconds !== 0) {
+            dispatcher = data[0].voiceConnection.playStream(
+                await ytdl('http://www.youtube.com/watch?v=A02s8omM_hI',
+                    {
+                        quality: "highestaudio"
+                    })
+            );
+        } else {*/
         let dispatcher = data[0].voiceConnection.playStream(
-            await youtubeAudioStream(data[0].videoData.url, {
-                bitrate: data[0].voiceConnection.channel.bitrate
-            })
-        );
+                await youtubeAudioStream(data[0].videoData.url, {
+                    bitrate: data[0].voiceConnection.channel.bitrate
+                })
+            );
+        //}
 
         dispatcher.setVolume(0.3);
 
@@ -77,16 +88,16 @@ class Function {
 
         data[0].dispatcher = dispatcher;
 
-        dispatcher.on("end", () => {
+        dispatcher.on("finish", () => {
             let targetGuild = dispatcher.player.voiceConnection.channel.guild;
-            queue.get(targetGuild.id).shift();
             if (
                 !queue.get(targetGuild.id) ||
-                queue.get(targetGuild.id).length === 0
+                queue.get(targetGuild.id).length === 1
             ) {
                 queue.delete(targetGuild.id);
-                data[0].voiceConnection.disconnect();
+                dispatcher.player.voiceConnection.disconnect();
             } else {
+                queue.get(targetGuild.id).shift();
                 this.playMusic(targetGuild);
             }
         });

@@ -25,8 +25,9 @@ exports.run = (client, msg, args, options) => {
         .setAuthor(`Success!`, msg.author.displayAvatarURL);
 
     msg.channel.send(success1);
-    options.queue.set(msg.guild.id, [ options.queue.get(msg.guild.id)[0] ]);
-    options.queue.get(msg.guild.id)[0].dispatcher.end("Stopped");
+    let dispatcher = options.queue.get(msg.guild.id)[0].dispatcher;
+    options.queue.delete(msg.guild.id);
+    dispatcher.emit("finish");
 };
 
 exports.config = {
